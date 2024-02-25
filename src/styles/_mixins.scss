@@ -1,0 +1,16 @@
+@mixin center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin min-size($size) {
+  min-width: $size;
+  min-height: $size;
+}
+
+@mixin list-reset() {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
